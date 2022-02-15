@@ -1,0 +1,132 @@
+* {
+    text-decoration: none;
+    color: inherit;
+}
+header  {
+ width: 100%;
+ background-color: black;
+}
+
+nav ul {
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.2s;
+    
+}
+
+nav ul li:hover {
+    font-size: 19px;
+    color: rgb(255, 179, 115);   
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color:orange;
+    font-weight: bold;
+    padding: 30px 0 20px;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+main p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 0 50px 20px;
+}
+
+main img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.depoimentos h3 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-bottom: black solid 2px;
+    margin: 25px 0;
+    padding: 10px;
+}
+
+.depoimentos {
+    width: 100%;
+    margin: auto;
+}
+
+.conteudo {
+    display: table;
+    
+}
+
+.imagem {
+    display: table-cell;
+    float: left;
+}
+
+.nome {
+    display:table-cell;
+    float: left;
+    width: 940px;
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.depoimentos h4 {
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+
+.depoimentos img {
+    border-radius: 50%;
+    border: solid black 2px; 
+    padding: 5px;
+    margin: 5px 0 20px 100px;
+}
+
+.saibamais {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-top: 2px black solid;
+    padding: 50px;
+   
+   
+}
+
+.saibamais p:hover {
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.final p {
+    width: 15%;
+    padding: 10px;
+    border: orange solid 3px;
+    border-radius: 15px;
+    margin: 0 auto;
+}

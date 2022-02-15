@@ -1,0 +1,186 @@
+* {
+    text-decoration: none;
+    color: inherit;
+}
+header  {
+ width: 100%;
+ background-color: black;
+}
+
+nav ul {
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.2s;
+    
+}
+
+nav ul li:hover {
+    font-size: 19px;
+    color: rgb(255, 179, 115);   
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color:orange;
+    font-weight: bold;
+    padding: 30px 0 20px;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+main p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 0 50px 20px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 15px 0;
+    padding: 15px;
+    width: 50%;
+}
+
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form legend {
+    margin: 15px 0;
+}
+
+select {
+     width: 25%;
+     height: 30px;
+     font-size: 15px;
+     background: #f2f2f3;
+     padding-left: 50px
+  }
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 25px 0;
+}
+
+.enviar:hover {
+    background: orange;
+    transform: scale(1.1);
+}
+
+#horarios {
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  #horarios td, #horarios th {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  #horarios tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #horarios tr:hover {background-color: #ddd;}
+  
+  #horarios th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+
+  section {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .here:hover {
+
+    transform: scale(1.1);
+    font-size: 20px;
+  }
+
+
+  label,
+  textarea {
+      font-size: .8rem;
+      letter-spacing: 1px;
+  }
+
+  textarea {
+      padding: 10px;
+      max-width: 100%;
+      line-height: 1.5;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-shadow: 1px 1px 1px #999;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 100px;
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+
+footer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.botao-whatsapp {
+    width:60px;
+    height:60px;
+    position:fixed;
+    right:25px;
+    bottom:40px;
+    background-color:#25d366;
+    color:#fff;
+    border-radius:50px;
+    text-align:center;
+    font-size:40px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    }
+    
+    .icone-whatsapp{
+    margin-top:11px;
+    }
+    
